@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "regions": ["icn1"],
+  "functions": {
+    "api/**/*.py": {
+      "memory": 1024,
+      "maxDuration": 15
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron",
+      "schedule": "0 20 * * *"
+    }
+  ]
+}

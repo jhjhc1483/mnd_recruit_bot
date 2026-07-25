@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국방부 & 육군 채용·공지 통합 모니터링</title>
+    <meta name="description" content="국방부와 육군의 주요 채용 및 공지사항을 한눈에 확인하고 실시간으로 탐색할 수 있는 통합 게시판 서비스입니다.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-decor">
+        <div class="glow-sphere glow-1"></div>
+        <div class="glow-sphere glow-2"></div>
+    </div>
+
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-top">
+                <div class="brand">
+                    <div class="brand-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                        <h1 class="brand-title">DEFENSE RECRUIT</h1>
+                        <p class="brand-subtitle">국방부 & 육군 채용·공지 통합 알리미</p>
+                    </div>
+                </div>
+                <div class="header-actions">
+                    <div class="update-badge" id="lastUpdatedBadge">
+                        <i class="fa-solid fa-arrows-rotate spin-icon"></i>
+                        <span>업데이트 확인 중...</span>
+                    </div>
+                    <button class="theme-toggle-btn" id="themeToggle" title="테마 변경">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Stats Overview Cards -->
+            <div class="stats-grid">
+                <div class="stat-card active" data-category="all" id="statCardAll">
+                    <div class="stat-icon icon-all">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">전체 공고</span>
+                        <span class="stat-value" id="statAllCount">0</span>
+                    </div>
+                </div>
+                <div class="stat-card" data-category="mnd" id="statCardMnd">
+                    <div class="stat-icon icon-mnd">
+                        <i class="fa-solid fa-building-columns"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">국방부</span>
+                        <span class="stat-value" id="statMndCount">0</span>
+                    </div>
+                </div>
+                <div class="stat-card" data-category="army" id="statCardArmy">
+                    <div class="stat-icon icon-army">
+                        <i class="fa-solid fa-person-military-rifle"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-label">육군</span>
+                        <span class="stat-value" id="statArmyCount">0</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Filter & Search Controls -->
+            <div class="controls-bar">
+                <div class="tab-nav">
+                    <button class="tab-btn active" data-tab="all" id="tabAll">
+                        <i class="fa-solid fa-globe"></i> 전체
+                    </button>
+                    <button class="tab-btn" data-tab="mnd" id="tabMnd">
+                        <span class="badge-dot mnd-dot"></span> 국방부
+                    </button>
+                    <button class="tab-btn" data-tab="army" id="tabArmy">
+                        <span class="badge-dot army-dot"></span> 육군
+                    </button>
+                </div>
+
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="공고 제목 또는 담당부서 검색..." aria-label="게시물 검색">
+                    <button class="clear-search-btn" id="clearSearchBtn" title="검색어 초기화" style="display: none;">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Active Filter Status -->
+            <div class="filter-status-bar">
+                <span class="result-count" id="resultCount">총 0개의 게시물이 등록되어 있습니다.</span>
+                <div class="quick-links">
+                    <a href="https://www.mnd.go.kr/mnd/156/subview.do" target="_blank" rel="noopener noreferrer" class="external-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> 국방부 바로가기
+                    </a>
+                    <a href="https://www.army.mil.kr/army/24/subview.do" target="_blank" rel="noopener noreferrer" class="external-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> 육군 바로가기
+                    </a>
+                </div>
+            </div>
+
+            <!-- Posts List Container -->
+            <div class="posts-wrapper" id="postsWrapper">
+                <!-- Loading State -->
+                <div class="loading-state" id="loadingState">
+                    <div class="spinner"></div>
+                    <p>최신 채용 공고 데이터를 불러오는 중입니다...</p>
+                </div>
+
+                <!-- Empty State -->
+                <div class="empty-state" id="emptyState" style="display: none;">
+                    <i class="fa-solid fa-folder-open empty-icon"></i>
+                    <h3>검색 결과가 없습니다</h3>
+                    <p>검색어나 카테고리 필터를 변경해 보세요.</p>
+                </div>
+
+                <!-- Posts List -->
+                <div class="posts-list" id="postsList"></div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>© DEFENSE RECRUIT MONITORING. Data sourced automatically from 대한민국 국방부 & 육군 공식 홈페이지.</p>
+            <p class="footer-note">자동 업데이트 시각: 매일 아침 05:00 KST (GitHub Actions)</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
