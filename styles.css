@@ -1,5 +1,39 @@
 :root {
-    /* Dark Theme Colors (Default) */
+    /* Light Theme Colors (Default) */
+    --bg-main: #f8fafc;
+    --bg-card: rgba(255, 255, 255, 0.9);
+    --bg-card-hover: #ffffff;
+    --border-color: rgba(0, 0, 0, 0.08);
+    --border-focus: rgba(37, 99, 235, 0.5);
+    
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    
+    /* Category Colors */
+    --mnd-primary: #2563eb;
+    --mnd-bg: rgba(37, 99, 235, 0.08);
+    --mnd-border: rgba(37, 99, 235, 0.25);
+
+    --army-primary: #059669;
+    --army-bg: rgba(5, 150, 105, 0.08);
+    --army-border: rgba(5, 150, 105, 0.25);
+
+    --gold-accent: #d97706;
+    --glow-color: rgba(37, 99, 235, 0.12);
+    
+    --radius-sm: 8px;
+    --radius-md: 14px;
+    --radius-lg: 20px;
+    --radius-pill: 9999px;
+
+    --shadow-soft: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
+    --shadow-card: 0 4px 15px rgba(0, 0, 0, 0.05);
+    
+    --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+[data-theme="dark"] {
     --bg-main: #0b0f19;
     --bg-card: rgba(18, 26, 43, 0.75);
     --bg-card-hover: rgba(28, 39, 64, 0.85);
@@ -9,8 +43,7 @@
     --text-primary: #f1f5f9;
     --text-secondary: #94a3b8;
     --text-muted: #64748b;
-    
-    /* Category Colors */
+
     --mnd-primary: #3b82f6;
     --mnd-bg: rgba(59, 130, 246, 0.15);
     --mnd-border: rgba(59, 130, 246, 0.3);
@@ -21,36 +54,9 @@
 
     --gold-accent: #fbbf24;
     --glow-color: rgba(59, 130, 246, 0.15);
-    
-    --radius-sm: 8px;
-    --radius-md: 14px;
-    --radius-lg: 20px;
-    --radius-pill: 9999px;
 
     --shadow-soft: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
     --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
-    
-    --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-[data-theme="light"] {
-    --bg-main: #f8fafc;
-    --bg-card: rgba(255, 255, 255, 0.85);
-    --bg-card-hover: rgba(255, 255, 255, 0.98);
-    --border-color: rgba(0, 0, 0, 0.08);
-    --border-focus: rgba(37, 99, 235, 0.5);
-    
-    --text-primary: #0f172a;
-    --text-secondary: #475569;
-    --text-muted: #94a3b8;
-
-    --mnd-primary: #2563eb;
-    --mnd-bg: rgba(37, 99, 235, 0.1);
-    --army-primary: #059669;
-    --army-bg: rgba(5, 150, 105, 0.1);
-
-    --shadow-soft: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
-    --shadow-card: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 * {
@@ -85,7 +91,7 @@ body {
     position: absolute;
     border-radius: 50%;
     filter: blur(100px);
-    opacity: 0.3;
+    opacity: 0.25;
 }
 
 .glow-1 {
@@ -143,23 +149,15 @@ body {
     justify-content: center;
     font-size: 1.6rem;
     color: #ffffff;
-    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
 
 .brand-title {
     font-family: 'Outfit', sans-serif;
     font-size: 1.6rem;
     font-weight: 800;
-    letter-spacing: 1px;
-    background: linear-gradient(90deg, #ffffff, var(--text-secondary));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-[data-theme="light"] .brand-title {
-    background: linear-gradient(90deg, #0f172a, #334155);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.5px;
+    color: var(--text-primary);
 }
 
 .brand-subtitle {
@@ -178,13 +176,14 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.55rem 1.1rem;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     backdrop-filter: blur(12px);
     border-radius: var(--radius-pill);
-    font-size: 0.8rem;
+    font-size: 0.82rem;
     color: var(--text-secondary);
+    box-shadow: var(--shadow-card);
 }
 
 .spin-icon {
@@ -192,8 +191,8 @@ body {
 }
 
 .theme-toggle-btn {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     border-radius: var(--radius-pill);
     background: var(--bg-card);
     border: 1px solid var(--border-color);
@@ -202,13 +201,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     transition: var(--transition);
+    box-shadow: var(--shadow-card);
 }
 
 .theme-toggle-btn:hover {
     background: var(--bg-card-hover);
-    transform: scale(1.05);
+    transform: scale(1.06);
+    border-color: var(--mnd-primary);
 }
 
 /* Stats Cards */
@@ -236,11 +237,12 @@ body {
     transform: translateY(-3px);
     background: var(--bg-card-hover);
     border-color: var(--border-focus);
+    box-shadow: var(--shadow-soft);
 }
 
 .stat-card.active {
     border-color: var(--mnd-primary);
-    box-shadow: 0 0 20px var(--glow-color);
+    box-shadow: 0 0 15px var(--glow-color);
 }
 
 .stat-icon {
@@ -254,7 +256,7 @@ body {
 }
 
 .icon-all {
-    background: rgba(251, 191, 36, 0.15);
+    background: rgba(217, 119, 6, 0.12);
     color: var(--gold-accent);
 }
 
@@ -301,6 +303,7 @@ body {
     border-radius: var(--radius-md);
     border: 1px solid var(--border-color);
     backdrop-filter: blur(12px);
+    box-shadow: var(--shadow-card);
 }
 
 .tab-btn {
@@ -325,7 +328,7 @@ body {
 .tab-btn.active {
     background: var(--mnd-primary);
     color: #ffffff;
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
 .badge-dot {
@@ -355,6 +358,7 @@ body {
     outline: none;
     transition: var(--transition);
     backdrop-filter: blur(12px);
+    box-shadow: var(--shadow-card);
 }
 
 .search-box input:focus {
@@ -440,13 +444,14 @@ body {
     text-decoration: none;
     color: inherit;
     transition: var(--transition);
+    box-shadow: var(--shadow-card);
 }
 
 .post-card:hover {
     background: var(--bg-card-hover);
     transform: translateX(4px);
     border-color: var(--border-focus);
-    box-shadow: var(--shadow-card);
+    box-shadow: var(--shadow-soft);
 }
 
 .post-main {
@@ -522,9 +527,13 @@ body {
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.04);
     color: var(--text-secondary);
     transition: var(--transition);
+}
+
+[data-theme="dark"] .post-action {
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .post-card:hover .post-action {

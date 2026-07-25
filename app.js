@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const statCards = document.querySelectorAll('.stat-card');
     const tabBtns = document.querySelectorAll('.tab-btn');
 
-    // Init Theme
+    // Init Theme (Default: Light Mode)
     initTheme();
 
     // Fetch Posts Data
@@ -68,8 +68,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     themeToggle.addEventListener('click', () => {
-        const currentTheme = document.body.getAttribute('data-theme') || 'dark';
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        const currentTheme = document.body.getAttribute('data-theme') || 'light';
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
         setTheme(newTheme);
     });
 
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function initTheme() {
-        const savedTheme = localStorage.getItem('theme') || 'dark';
+        const savedTheme = localStorage.getItem('theme') || 'light';
         setTheme(savedTheme);
     }
 
@@ -231,12 +231,12 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.setAttribute('data-theme', theme);
         localStorage.setItem('theme', theme);
         const icon = themeToggle.querySelector('i');
-        if (theme === 'light') {
+        if (theme === 'dark') {
             icon.className = 'fa-solid fa-sun';
-            themeToggle.title = '다크 모드로 변경';
+            themeToggle.title = '라이트 모드로 변경';
         } else {
             icon.className = 'fa-solid fa-moon';
-            themeToggle.title = '라이트 모드로 변경';
+            themeToggle.title = '다크 모드로 변경';
         }
     }
 
