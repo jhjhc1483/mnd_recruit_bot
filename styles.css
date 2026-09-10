@@ -588,6 +588,13 @@ body {
     color: var(--text-secondary);
 }
 
+.footer-copyright {
+    margin-top: 0.8rem;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    letter-spacing: 0.02em;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .app-container {
