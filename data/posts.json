@@ -1,9 +1,64 @@
 {
-  "updated_at": "2026-10-14 23:00:58",
+  "updated_at": "2026-10-15 22:55:41",
   "total_count": 25,
   "mnd_count": 15,
   "army_count": 10,
   "posts": [
+    {
+      "id": "mnd-7693",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7693",
+      "title": "2026년도 국방부 주관 일반군무원 채용 필기시험 추가 합격자 공고 및 합격자 서류제출 안내",
+      "author": "김홍주",
+      "date": "2026-10-15",
+      "views": "122",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14115374/artclView.do"
+    },
+    {
+      "id": "mnd-7692",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7692",
+      "title": "국군대전병원 주관 '26-7차 일반임기제 군무원(행정5급) 경력경쟁채용 공고",
+      "author": "김성훈",
+      "date": "2026-10-15",
+      "views": "140",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14114919/artclView.do"
+    },
+    {
+      "id": "mnd-7691",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7691",
+      "title": "’26-3차 합동참모본부 주관 한시임기제군무원(휴직대체) 채용 서류전형 합격자 및 면접시험 계획 공고",
+      "author": "오순근",
+      "date": "2026-10-15",
+      "views": "75",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14114898/artclView.do"
+    },
+    {
+      "id": "mnd-7690",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7690",
+      "title": "’26-2차 합동참모본부 주관 기간제근로자 채용 서류전형 합격자 및 면접시험 계획 공고",
+      "author": "오순근",
+      "date": "2026-10-15",
+      "views": "51",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14114894/artclView.do"
+    },
+    {
+      "id": "mnd-7689",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7689",
+      "title": "국방부근무지원단 전문군무경력관(경채) 및 일반임기제군무원 채용 실기시험 합격자 및 면접시험 계획 공고",
+      "author": "이영선",
+      "date": "2026-10-15",
+      "views": "120",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14114841/artclView.do"
+    },
     {
       "id": "mnd-7688",
       "category": "국방부",
@@ -12,7 +67,7 @@
       "title": "'26년 후반기(2차) 국방부 주관 전문군무경력관 및 일반임기제군무원 채용 면접시험 계획 공고",
       "author": "주현영",
       "date": "2026-10-14",
-      "views": "130",
+      "views": "243",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14114643/artclView.do"
     },
     {
@@ -23,7 +78,7 @@
       "title": "(제2026-02호) 국방대학교 공무직 근로자 긴급 채용 공고",
       "author": "이윤정",
       "date": "2026-10-14",
-      "views": "236",
+      "views": "271",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14114093/artclView.do"
     },
     {
@@ -34,7 +89,7 @@
       "title": "2026년도 국방부 주관 일반군무원 공개경쟁채용 최종합격자(채용후보자) 기관(부대)배정 계획 공고",
       "author": "김홍주",
       "date": "2026-10-13",
-      "views": "318",
+      "views": "362",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14113430/artclView.do"
     },
     {
@@ -45,7 +100,7 @@
       "title": "26-8차 국방부근무지원단 공무직근로자 채용 공고",
       "author": "맹용숙",
       "date": "2026-10-13",
-      "views": "340",
+      "views": "421",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14113376/artclView.do"
     },
     {
@@ -56,7 +111,7 @@
       "title": "'26-5,6차 국군복지단 한시임기제군무원(행정 7호, 9호) 최종합격자 안내",
       "author": "장지훈",
       "date": "2026-10-13",
-      "views": "71",
+      "views": "92",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14113241/artclView.do"
     },
     {
@@ -67,7 +122,7 @@
       "title": "'26년 후반기(1차) 국방부 주관 전문군무경력관 및 일반임기제군무원 채용 면접시험 합격자 공고 및 서류 제출 안내",
       "author": "주현영",
       "date": "2026-10-13",
-      "views": "266",
+      "views": "296",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14113179/artclView.do"
     },
     {
@@ -78,7 +133,7 @@
       "title": "[국방부조사본부] 26-5차 전문군무경력관(나군) 채용 서류전형 합격자 및 면접시험 계획 공고",
       "author": "이가연",
       "date": "2026-10-13",
-      "views": "155",
+      "views": "174",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14112942/artclView.do"
     },
     {
@@ -89,7 +144,7 @@
       "title": "26년 수시 2차 육군 전문군무경력관 및 일반임기제군무원 최종합격자 공고",
       "author": "육군관리자",
       "date": "2026-10-13",
-      "views": "471",
+      "views": "623",
       "link": "https://www.army.mil.kr/bbs/army/1/6600/artclView.do"
     },
     {
@@ -100,7 +155,7 @@
       "title": "2026년도 후반기 해병대 일반군무원 경력경쟁채용 공고",
       "author": "김홍주",
       "date": "2026-10-12",
-      "views": "297",
+      "views": "323",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14112451/artclView.do"
     },
     {
@@ -111,7 +166,7 @@
       "title": "2026년 1차 및 2차 국방출판지원단 한시임기제군무원 서류전형 합격자 및 면접시험 계획공고",
       "author": "홍인환",
       "date": "2026-10-12",
-      "views": "141",
+      "views": "153",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14112177/artclView.do"
     },
     {
@@ -122,41 +177,8 @@
       "title": "2026년 2차 국방출판지원단 일반임기제군무원 서류전형 합격자 및 면접시험 계획공고",
       "author": "홍인환",
       "date": "2026-10-12",
-      "views": "114",
+      "views": "127",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14112172/artclView.do"
-    },
-    {
-      "id": "mnd-7678",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7678",
-      "title": "국방부 5급 공무원(암호정책담당) 서류전형 합격자 및 면접시험 일정 공고",
-      "author": "김다애",
-      "date": "2026-10-08",
-      "views": "209",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14110892/artclView.do"
-    },
-    {
-      "id": "mnd-7677",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7677",
-      "title": "[국군복지단] '26-18차(11월) 공무직근로자 긴급 채용 공고",
-      "author": "박애린",
-      "date": "2026-10-08",
-      "views": "390",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14110706/artclView.do"
-    },
-    {
-      "id": "mnd-7676",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7676",
-      "title": "[국방부유해발굴감식단 주관] '26년 후반기 공무직근로자 채용 공고",
-      "author": "유진혁",
-      "date": "2026-10-08",
-      "views": "224",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14110520/artclView.do"
     },
     {
       "id": "army-2283",
@@ -166,30 +188,8 @@
       "title": "제79회 예비전력관리 업무담당자 선발 2차 수정 공고",
       "author": "육군관리자",
       "date": "2026-10-08",
-      "views": "583",
+      "views": "674",
       "link": "https://www.army.mil.kr/bbs/army/1/6593/artclView.do"
-    },
-    {
-      "id": "mnd-7675",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7675",
-      "title": "한미연합군사령부 한측 선임관찰관 모집 공고",
-      "author": "국방부",
-      "date": "2026-10-07",
-      "views": "217",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14109546/artclView.do"
-    },
-    {
-      "id": "mnd-7674",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7674",
-      "title": "'26년 후반기 사이버작전사령부 한시임기제군무원 채용 서류전형 합격자 및 면접시험 계획 공고",
-      "author": "김수진",
-      "date": "2026-10-07",
-      "views": "161",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14109485/artclView.do"
     },
     {
       "id": "army-2282",
@@ -199,7 +199,7 @@
       "title": "2026년 후반기 육군 일반군무원 경력경쟁채용 변경 공고문",
       "author": "육군관리자",
       "date": "2026-10-07",
-      "views": "1774",
+      "views": "2020",
       "link": "https://www.army.mil.kr/bbs/army/1/6592/artclView.do"
     },
     {
@@ -210,7 +210,7 @@
       "title": "2026년 후반기 육군 일반군무원 경력경쟁채용 공고문",
       "author": "육군관리자",
       "date": "2026-10-06",
-      "views": "1336",
+      "views": "1445",
       "link": "https://www.army.mil.kr/bbs/army/1/6591/artclView.do"
     },
     {
@@ -221,7 +221,7 @@
       "title": "육군 2급 일반임기제군무원 채용 공고",
       "author": "육군관리자",
       "date": "2026-10-02",
-      "views": "875",
+      "views": "936",
       "link": "https://www.army.mil.kr/bbs/army/1/6580/artclView.do"
     },
     {
@@ -232,7 +232,7 @@
       "title": "2026년 육군 주관 일반군무원 채용 최종 합격자 공고문",
       "author": "육군관리자",
       "date": "2026-09-30",
-      "views": "1631",
+      "views": "1697",
       "link": "https://www.army.mil.kr/bbs/army/1/6579/artclView.do"
     },
     {
@@ -243,7 +243,7 @@
       "title": "동원전력사 한시임기제 군무원 채용 공고 제26-02호",
       "author": "육군관리자",
       "date": "2026-09-30",
-      "views": "654",
+      "views": "662",
       "link": "https://www.army.mil.kr/bbs/army/1/6578/artclView.do"
     },
     {
@@ -254,7 +254,7 @@
       "title": "'26-3차 육군 전문군무경력관 및 일반임기제군무원 채용 서류전형 합격자 및 실기시험(연구강의) 일정 공고",
       "author": "육군관리자",
       "date": "2026-09-30",
-      "views": "877",
+      "views": "896",
       "link": "https://www.army.mil.kr/bbs/army/1/6577/artclView.do"
     },
     {
@@ -265,7 +265,7 @@
       "title": "IAMSEC 2026 사전등록 기간연장 안내(~10. 23.)",
       "author": "육군관리자",
       "date": "2026-09-22",
-      "views": "813",
+      "views": "823",
       "link": "https://www.army.mil.kr/bbs/army/1/6575/artclView.do"
     },
     {
@@ -276,7 +276,7 @@
       "title": "군 가족지원안내서 발간 안내",
       "author": "육군관리자",
       "date": "2026-09-22",
-      "views": "858",
+      "views": "866",
       "link": "https://www.army.mil.kr/bbs/army/1/6574/artclView.do"
     }
   ]
