@@ -1,9 +1,64 @@
 {
-  "updated_at": "2026-11-05 00:46:53",
+  "updated_at": "2026-11-06 00:52:25",
   "total_count": 25,
   "mnd_count": 15,
   "army_count": 10,
   "posts": [
+    {
+      "id": "mnd-7740",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7740",
+      "title": "합동상호운용성기술센터 한시임기제군무원(통신8호) 채용 공고",
+      "author": "손석근",
+      "date": "2026-11-06",
+      "views": "4",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14133208/artclView.do"
+    },
+    {
+      "id": "mnd-7739",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7739",
+      "title": "26-1차 국방방첩본부 공무직근로자 채용 재공고",
+      "author": "김소정",
+      "date": "2026-11-05",
+      "views": "108",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14132803/artclView.do"
+    },
+    {
+      "id": "mnd-7738",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7738",
+      "title": "'26-2차 성고충전문상담관 채용",
+      "author": "심성호",
+      "date": "2026-11-05",
+      "views": "126",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14132659/artclView.do"
+    },
+    {
+      "id": "mnd-7737",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7737",
+      "title": "[국군복지단] '26년 20차(27년 1월) 시설장(화진포콘도, 자운학사) 신규 채용 공고",
+      "author": "박애린",
+      "date": "2026-11-04",
+      "views": "195",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14131572/artclView.do"
+    },
+    {
+      "id": "mnd-7736",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7736",
+      "title": "[국방부유해발굴감식단 주관] '26년 후반기 공무직근로자 채용 서류전형 합격자 및 면접시험 계획 공고",
+      "author": "유진혁",
+      "date": "2026-11-04",
+      "views": "98",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14131340/artclView.do"
+    },
     {
       "id": "army-2291",
       "category": "육군",
@@ -12,7 +67,7 @@
       "title": "제65회 BCTP 자격시험 공고",
       "author": "육군관리자",
       "date": "2026-11-04",
-      "views": "120",
+      "views": "187",
       "link": "https://www.army.mil.kr/bbs/army/1/6629/artclView.do"
     },
     {
@@ -23,7 +78,7 @@
       "title": "’26-2차 합동참모본부 주관 기간제근로자 채용 최종합격자 공고",
       "author": "오순근",
       "date": "2026-11-03",
-      "views": "85",
+      "views": "155",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14130109/artclView.do"
     },
     {
@@ -34,7 +89,7 @@
       "title": "'26년 후반기(2차) 국방부 주관 전문군무경력관 및 일반임기제군무원 채용 면접시험 합격자 공고 및 서류 제출 안내",
       "author": "주현영",
       "date": "2026-11-02",
-      "views": "335",
+      "views": "483",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14129529/artclView.do"
     },
     {
@@ -45,7 +100,7 @@
       "title": "국군 제3707부대 공무직 근로자 등 채용공고 2026-05호(기간제 및 단시간근로자)(5차)",
       "author": "김정원",
       "date": "2026-11-02",
-      "views": "253",
+      "views": "270",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14129292/artclView.do"
     },
     {
@@ -56,7 +111,7 @@
       "title": "국군 제9965부대 공무직근로자(시설관리원) 채용공고",
       "author": "박미선",
       "date": "2026-11-02",
-      "views": "197",
+      "views": "254",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14129099/artclView.do"
     },
     {
@@ -67,7 +122,7 @@
       "title": "26-9차 국방부근무지원단 공무직근로자 채용 공고",
       "author": "맹용숙",
       "date": "2026-11-01",
-      "views": "261",
+      "views": "355",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14128641/artclView.do"
     },
     {
@@ -78,7 +133,7 @@
       "title": "'26년 후반기(2차) 국군체육부대 주관 공무직근로자 채용 서류전형 합격자 및 면접시험 계획 공고",
       "author": "정효진",
       "date": "2026-10-30",
-      "views": "172",
+      "views": "188",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14127808/artclView.do"
     },
     {
@@ -89,7 +144,7 @@
       "title": "'26년 후반기(2차) 국군체육부대 주관 한시임기제 군무원 채용 서류전형 합격자 및 면접시험 계획 공고",
       "author": "정효진",
       "date": "2026-10-30",
-      "views": "83",
+      "views": "93",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14127796/artclView.do"
     },
     {
@@ -100,7 +155,7 @@
       "title": "2026년도 국방부 주관 일반군무원 채용 추가 면접시험 계획 공고",
       "author": "김홍주",
       "date": "2026-10-30",
-      "views": "274",
+      "views": "326",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14127756/artclView.do"
     },
     {
@@ -111,7 +166,7 @@
       "title": "2026년도 일반군무원 지역 인재 9급 수습직원 선발 서류전형 합격자 및 면접시험 계획 공고",
       "author": "김홍주",
       "date": "2026-10-30",
-      "views": "186",
+      "views": "213",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14127753/artclView.do"
     },
     {
@@ -122,7 +177,7 @@
       "title": "'26-3차 육군 전문군무경력관 및 일반임기제군무원 채용 면접 공고",
       "author": "육군관리자",
       "date": "2026-10-30",
-      "views": "724",
+      "views": "823",
       "link": "https://www.army.mil.kr/bbs/army/1/6618/artclView.do"
     },
     {
@@ -133,7 +188,7 @@
       "title": "[국방정보본부] 26-1차 후반기 전문군무경력관 채용 재공고",
       "author": "정난옥",
       "date": "2026-10-29",
-      "views": "504",
+      "views": "567",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14126162/artclView.do"
     },
     {
@@ -144,63 +199,8 @@
       "title": "대한민국정부 관보 제21219호_20260415(수) 육군공고제2026-01호(공시송달서)_육군7군단",
       "author": "육군관리자",
       "date": "2026-10-29",
-      "views": "322",
+      "views": "357",
       "link": "https://www.army.mil.kr/bbs/army/1/6611/artclView.do"
-    },
-    {
-      "id": "mnd-7725",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7725",
-      "title": "[국방대학교] 공무직 근로자(영선설비) 채용 공고(제2026-05호)",
-      "author": "이윤정",
-      "date": "2026-10-28",
-      "views": "207",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14125998/artclView.do"
-    },
-    {
-      "id": "mnd-7724",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7724",
-      "title": "[국방정보본부] 26-1차 전문군무경력관 채용 취소 공고",
-      "author": "정난옥",
-      "date": "2026-10-28",
-      "views": "331",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14125884/artclView.do"
-    },
-    {
-      "id": "mnd-7723",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7723",
-      "title": "국군대전병원 주관 26-6차 공무직근로자(보안요원)(기간제) 면접전형 합격자 발표 및 등록 안내",
-      "author": "박수연",
-      "date": "2026-10-28",
-      "views": "181",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14125173/artclView.do"
-    },
-    {
-      "id": "mnd-7722",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7722",
-      "title": "[국군복지단] 26년 19차(12월) 공무직근로자 등 신규 채용 계획",
-      "author": "이효정",
-      "date": "2026-10-27",
-      "views": "481",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14124691/artclView.do"
-    },
-    {
-      "id": "mnd-7721",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7721",
-      "title": "국방부유해발굴감식단 임기제군무원 채용 최종합격자 공고",
-      "author": "배준호",
-      "date": "2026-10-27",
-      "views": "140",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14124291/artclView.do"
     },
     {
       "id": "army-2288",
@@ -210,7 +210,7 @@
       "title": "[35사단] 내진성능평가 업무중복도 평가 자료",
       "author": "육군관리자",
       "date": "2026-10-27",
-      "views": "388",
+      "views": "422",
       "link": "https://www.army.mil.kr/bbs/army/1/6609/artclView.do"
     },
     {
@@ -221,7 +221,7 @@
       "title": "[병장특진조사단] 26-11차 상병만기전역자 병장특별진급 심사 결과",
       "author": "육군관리자",
       "date": "2026-10-26",
-      "views": "580",
+      "views": "622",
       "link": "https://www.army.mil.kr/bbs/army/1/6608/artclView.do"
     },
     {
@@ -232,7 +232,7 @@
       "title": "육군 1급 일반임기제군무원 채용 공고",
       "author": "육군관리자",
       "date": "2026-10-23",
-      "views": "1338",
+      "views": "1406",
       "link": "https://www.army.mil.kr/bbs/army/1/6607/artclView.do"
     },
     {
@@ -243,7 +243,7 @@
       "title": "27년 상비예비군 정기모집 공고문",
       "author": "육군관리자",
       "date": "2026-10-23",
-      "views": "1700",
+      "views": "1725",
       "link": "https://www.army.mil.kr/bbs/army/1/6606/artclView.do"
     },
     {
@@ -254,7 +254,7 @@
       "title": "26년 수시 2차 육군 전문군무경력관 및 일반임기제군무원 최종합격자 공고",
       "author": "육군관리자",
       "date": "2026-10-13",
-      "views": "1716",
+      "views": "1723",
       "link": "https://www.army.mil.kr/bbs/army/1/6600/artclView.do"
     },
     {
@@ -265,7 +265,7 @@
       "title": "제79회 예비전력관리 업무담당자 선발 2차 수정 공고",
       "author": "육군관리자",
       "date": "2026-10-08",
-      "views": "1487",
+      "views": "1501",
       "link": "https://www.army.mil.kr/bbs/army/1/6593/artclView.do"
     },
     {
@@ -276,7 +276,7 @@
       "title": "2026년 후반기 육군 일반군무원 경력경쟁채용 변경 공고문",
       "author": "육군관리자",
       "date": "2026-10-07",
-      "views": "3084",
+      "views": "3103",
       "link": "https://www.army.mil.kr/bbs/army/1/6592/artclView.do"
     }
   ]
