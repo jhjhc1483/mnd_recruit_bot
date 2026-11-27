@@ -1,9 +1,31 @@
 {
-  "updated_at": "2026-11-26 02:41:00",
+  "updated_at": "2026-11-27 02:41:32",
   "total_count": 25,
   "mnd_count": 15,
   "army_count": 10,
   "posts": [
+    {
+      "id": "mnd-7783",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7783",
+      "title": "[국방부조사본부] 26-5차 전문군무경력관(나군) 최종 합격자 공고 및 채용후보자 등록 안내",
+      "author": "이가연",
+      "date": "2026-11-26",
+      "views": "91",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14149067/artclView.do"
+    },
+    {
+      "id": "mnd-7782",
+      "category": "국방부",
+      "category_code": "mnd",
+      "num": "7782",
+      "title": "해군 군 책임운영기관장(1수리창장) 공개모집 계획 공고",
+      "author": "주현영",
+      "date": "2026-11-26",
+      "views": "38",
+      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14148936/artclView.do"
+    },
     {
       "id": "mnd-7781",
       "category": "국방부",
@@ -12,7 +34,7 @@
       "title": "국방부조사본부 주관 '26-6차 전문임기제군무원(의사) 경력경쟁채용 공고",
       "author": "이가연",
       "date": "2026-11-25",
-      "views": "83",
+      "views": "138",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14148330/artclView.do"
     },
     {
@@ -23,7 +45,7 @@
       "title": "국군수송사령부 공무직근로자(시설관리원) 채용 재공고('26-6차)",
       "author": "정근민",
       "date": "2026-11-25",
-      "views": "88",
+      "views": "79",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14148009/artclView.do"
     },
     {
@@ -34,7 +56,7 @@
       "title": "국군수송사령부 공무직근로자(민간조리원) 채용 재공고('26-5차)",
       "author": "정근민",
       "date": "2026-11-25",
-      "views": "45",
+      "views": "72",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14148006/artclView.do"
     },
     {
@@ -45,7 +67,7 @@
       "title": "국군의무사령부 주관 '26-5차 한시임기제(대체인력) 군무원 채용 변경 공고",
       "author": "김나리",
       "date": "2026-11-25",
-      "views": "98",
+      "views": "134",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14147896/artclView.do"
     },
     {
@@ -56,7 +78,7 @@
       "title": "26-5차 국군수도병원 주관 한시임기제(대체인력) 군무원 채용 공고",
       "author": "장지연",
       "date": "2026-11-24",
-      "views": "75",
+      "views": "96",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14147436/artclView.do"
     },
     {
@@ -67,7 +89,7 @@
       "title": "'26년 후반기(2차) 국방부 주관 전문군무경력관 및 일반임기제군무원 채용 재공고(2차)",
       "author": "주현영",
       "date": "2026-11-24",
-      "views": "324",
+      "views": "398",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14147184/artclView.do"
     },
     {
@@ -78,7 +100,7 @@
       "title": "자운대근무지원연대 공무직근로자 대체인력 채용 공고(제26-5호)",
       "author": "박상민",
       "date": "2026-11-24",
-      "views": "152",
+      "views": "190",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14147070/artclView.do"
     },
     {
@@ -89,7 +111,7 @@
       "title": "'26년 후반기(4차) 국방부 주관 전문군무경력관 및 일반임기제군무원 채용 공고",
       "author": "주현영",
       "date": "2026-11-24",
-      "views": "266",
+      "views": "318",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14147020/artclView.do"
     },
     {
@@ -100,7 +122,7 @@
       "title": "국군의무사령부 주관 '26-5차 일반임기제 군무원 장애인 구분모집 경력경쟁채용 공고",
       "author": "김나리",
       "date": "2026-11-24",
-      "views": "79",
+      "views": "87",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14146887/artclView.do"
     },
     {
@@ -111,7 +133,7 @@
       "title": "국군의무사령부 주관 '26-5차 일반임기제 군무원 경력경쟁채용 공고",
       "author": "김나리",
       "date": "2026-11-24",
-      "views": "117",
+      "views": "134",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14146885/artclView.do"
     },
     {
@@ -122,7 +144,7 @@
       "title": "'26-2차 합동상호운용성기술센터 한시임기제군무원 채용 서류전형 합격자 발표 및 면접시험 계획 공고",
       "author": "손석근",
       "date": "2026-11-24",
-      "views": "48",
+      "views": "53",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14146768/artclView.do"
     },
     {
@@ -133,7 +155,7 @@
       "title": "공군 군 책임운영기관장(82창장, 83창장) 공개 모집 공고",
       "author": "주현영",
       "date": "2026-11-24",
-      "views": "64",
+      "views": "74",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14146681/artclView.do"
     },
     {
@@ -144,19 +166,8 @@
       "title": "2027년도 전반기 국방대학교 교수채용 공고",
       "author": "한수련",
       "date": "2026-11-23",
-      "views": "271",
+      "views": "299",
       "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14146108/artclView.do"
-    },
-    {
-      "id": "mnd-7768",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7768",
-      "title": "국군 제3707부대 공무직 근로자 등 채용공고 2026-05호(기간제 및 단시간근로자)(6차)",
-      "author": "김정원",
-      "date": "2026-11-23",
-      "views": "298",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14145754/artclView.do"
     },
     {
       "id": "army-376",
@@ -179,17 +190,6 @@
       "date": "2026-11-23",
       "views": "260",
       "link": "https://www.army.mil.kr/bbs/army/1/6662/artclView.do"
-    },
-    {
-      "id": "mnd-7767",
-      "category": "국방부",
-      "category_code": "mnd",
-      "num": "7767",
-      "title": "(재공고)[국군수도병원] '26-37~41차 공무직근로자 모집 공고 (기계기사, 전기기사, 이미용사, 청소원, 보안요원)",
-      "author": "김다은",
-      "date": "2026-11-20",
-      "views": "366",
-      "link": "https://www.mnd.go.kr/bbs/mnd/26382/I_14144525/artclView.do"
     },
     {
       "id": "army-374",
